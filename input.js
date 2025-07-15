@@ -1,10 +1,14 @@
-function _0x4e71(){var _0x1a2e=["getTime","\x79\x6F\x6E\x67\x7A\x68\x69","\x73\x68\x61\x72\x65\x55\x72\x6C"];_0x4e71=function(){return _0x1a2e;};return _0x4e71();}
-function _0x3a2a(_0x17f4){var _0x2b5f=_0x4e71();return _0x3a2a=function(_0x2f08){return _0x2b5f[_0x2f08];},_0x3a2a(_0x17f4);}
-function _0x1abc(){
-    var _0x5f2b9c=new Date()[_0x3a2a(0)]();
-    return Math['floor'](_0x5f2b9c/0x3e8);
-}
-function _0xa3fd(){
-    var _0x11d2c9=_0x1abc(),_0x3c49df=shareUrl+_0x11d2c9+_0x3a2a(1),_0x4a31b6=md5(_0x3c49df);
-    return _0x4a31b6;
-}
+(function () {
+  var _0x2e1f = function (i) {
+    return i.toString(36);
+  };
+  var _0xabc = function () {
+    return Math['floor'](Date['now']() / 0x3e8);
+  };
+  var _0xdef = function () {
+    var _0x1 = _0xabc();
+    var _0x2 = window['\x73\x68\x61\x72\x65\x55\x72\x6C'] + _0x1 + '\x79\x6F\x6E\x67\x7A\x68\x69';
+    return window['\x6D\x64\x35'](_0x2);
+  };
+  window[_0x2e1f(100)] = _0xdef;
+})();
